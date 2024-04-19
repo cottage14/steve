@@ -6,6 +6,8 @@ github:
     - python
     - voting
     - stv
+  features:
+    issues: true
 
 # We will publish our site using Pelican, via the asf-site branch
 pelican:
