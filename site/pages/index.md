@@ -1,7 +1,7 @@
 Title: Home
 
 
-Apache STeVe is Apache's Python based voting system that the
+Apache STeVe is the ASF's Python-based voting system that the
 Foundation uses to handle things like
 [voting in our new Board of Directors](https://www.apache.org/foundation/governance/meetings#boardvoting)
 
