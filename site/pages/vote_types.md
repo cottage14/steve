@@ -74,3 +74,21 @@ available:
 
 For more information on the D'Hondt Method, see
 [this Wikipedia article](https://en.wikipedia.org/wiki/D'Hondt_method)
+
+----
+
+<h2 id="cop">Candidate or Party voting with preferential trickle-down</h2>
+
+This information is not yet available.
+
+----
+
+<h2 id="fic">First in Class (N-x-points based voting)</h2>
+
+This information is not yet available
+
+----
+
+<h2 id="mntv">Multiple Non-Transferable Votes</h2>
+
+Multiple Non-Transferable Voting (MNTV) is a group of voting systems in which voters elect several representatives at once, with each voter having more than one vote. MNTV uses multi-member electoral 'districts' or some other term for dividing the eligible voters into coherent groups, or only one district which contains all voters, which is used to provide at-large representation.
