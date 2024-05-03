@@ -1,13 +1,13 @@
 <html>
   <head>
-    <title>Apache Voting Using the Vote Tool Web Interface</title>
+    <title>Apache Voting Using the STeVe Web Interface</title>
     <script type="text/javascript"> 
     function cast(form) { 
         window.location = "https://vote.apache.org/cast/" + form.issue.value + "/" + form.hash.value; 
         return false; 
     } 
     </script>
-    <meta name="description" content="Apache STeve is a community voting solution, and in use by the ASF.">
+    <meta name="description" content="Apache STeVe is a community voting solution, and in use by the ASF.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Apache STeVe">
   </head>
@@ -21,10 +21,10 @@
         <li>select1-9 - Select (Unordered) Preference for 1-9 Slots</li>
     </ul>
 
-    <h1>Mechanics of Casting a Vote</h1>
+    <h1>Casting a Vote in STeVe</h1>
 
     <p>
-    You can access the VOTE URL directly at : https://vote.apache.org/cast/$issue/$hash
+    You can access the VOTE URL directly at <code>https://vote.apache.org/cast/$issue/$hash</code>
     </p>
     <p>or use the following form</p>
     <p> 
@@ -37,18 +37,18 @@
         </form> 
     </p>
     <p>
-      On success you will be presented with a ballot containing a form to fill
+      On success, you see a ballot containing a form to fill
       out for your actual vote.
     </p>
 
-    <h1>How the Web Interface to the Vote Tool Works</h1>
+    <h1>How the STeVe Web Interface Works</h1>
 
     <p>
-      Firstly, after supplying your LDAP username and password, the URL is 
-      validated and used to determine your voter email address. If you are
-      doing a GET, the web interface will display the proper ballot for
-      the issue.  If you are doing a POST, the web interface will treat that
-      as an attempt to vote on the issue and will validate your vote before
+      First, after you supply your LDAP username and password, STeVe validates the URL 
+     and determines your voter email address. If you are
+      doing a GET, the web interface displays the proper ballot for
+      the issue.  If you are doing a POST, the web interface treats that
+      as an attempt to vote on the issue and validates your vote before
       passing it along to the vote tool. 
     </p>
     <p>
