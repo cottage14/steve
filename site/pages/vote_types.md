@@ -12,18 +12,18 @@ presented. It is up to the election committee to interpret the result.
 <h2 id="ap">Apache-style Single motion voting (Yes/No/Abstain with binding votes)</h2>
 
 This is a simple tally vote. Voters can vote either Yes or No on an
-issue, or they can abstain, however certain people (committee members,
+issue, or they can abstain; however, certain people (committee members,
 for instance) may cast binding votes whereas others may only cast
 non-binding votes.  Votes are tallied, and the result is presented. It
-is up to the election committee to interpret the result.
+is up to the election committee to interpret the result (for example, are there sufficient 'binding' votes to match any requirement that has been set, regardless of the total number of 'yes' and 'no' votes?).
 
 ----
 
 <h2 id="fpp">First Past the Post (presidential election style)</h2>
 
 FPP is a voting system with multiple candidates. The candidate with
-the most votes will win, regardless of whether they received more than
-half the votes or not.
+the most votes wins, regardless of whether they received more than
+half the votes.
 
 ----
 
@@ -35,17 +35,17 @@ proportional representation through ranked voting in multi-seat
 elections. It does so by allowing every voter one vote, that is
 transferable to other candidates based on necessity of votes and the
 preference of the voter. Thus, if a candidate in an election is voted
-in (or in case of a tie), excess votes are allocated to candidates
+in (or in case of a tie), excess votes for that candidate are allocated to other candidates
 according to the preference of the voter. STV is designed to minimize
-the 'wasted votes' in an election by reallocating votes (and thus the
-wishes of the voters) proportionally to their previous priority.
+'wasted votes' in an election by reallocating votes (and thus the
+wishes of the voters) proportionally to the priority they stated.
 
-Please see the
+See the
 [Wikipedia article on STV voting](https://en.wikipedia.org/wiki/Single_transferable_vote#Voting)
 for more insight into how STV works.
 
-For calculating result, we use Meek's Method with a quota derived from
-the Droop Quota but with implementation changes such as those
+For calculating results, we use Meek's Method with a quota derived from
+the Droop Quota, but with implementation changes such as those
 proposed by New Zealand. See 
 [this paper](http://svn.apache.org/repos/asf/steve/trunk/stv_background/meekm.pdf)
 for details.
