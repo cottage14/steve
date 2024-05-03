@@ -13,9 +13,9 @@ http://en.wikipedia.org/wiki/Single_transferable_vote
 
 Getting Started
 ===============
-Getting Started documentation can be found at: https://steve.apache.org/demo.html
-Otherwise, come to the #apache-steve channel on the Freenode IRC network, 
-and we'd be glad to help you.
+Getting Started documentation is at: <a href="https://steve.apache.org/demo.html">steve.apache.org/demo.html</a>.
+
+You are welcome to join the `#steve` channel in `the-asf` <a href="https://infra.apache.org/slack.html" target="_blank">Slack workspace</a> to discuss STeVe, ask questions, and make suggestions.
 
 
 License (see also LICENSE.txt)
