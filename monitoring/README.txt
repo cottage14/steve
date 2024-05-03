@@ -3,17 +3,17 @@ vote monitor's job easier.
 
 When votes are closed, each monitor will get, via EMail,
 a final tally (list) of all votes cast, with hash ID and
-timestamp. The list is time-ordered as well, so the later
-cast ballot are later on in the tally (closer to the bottom).
+timestamp. The list is time-ordered as well, so the later-
+cast ballots are closer to the bottom of the tally.
 
 For STV, we use voter/stv_tool.py to process the vote results:
 
     ./stv_tool.py raw_votes.txt
 
-where raw_votes.txt is emailed set of votes. For examples,
+where `raw_votes.txt` is the emailed set of votes. For example,
 see Meetings/.../raw_board_votes.txt. Lines other than votes
 are ignored, and the votes are assumed to be time-ordered to
-ensure that only the latest vote is considered.
+ensure that only the latest vote by each voter is considered.
 
 We also support OpenSTV (www.openstv.org) or the deprecated VoteMain
 (http://sourceforge.net/projects/votesystem) systems. Most modern
@@ -52,16 +52,16 @@ For simple YNA votes (Yes / No / Abstain), we have
 which does the checks for you.
 
 This script is smart enough that you can actually concat
-*all* the final vote tallies for yna elections into 1 big
+*all* the final vote tallies for yna elections into one big
 file, and it will pull out the issue name and the results
 for each issue.
 
    ./yna-summary.pl all30tally.txt
 
-yna-summary.pl will only honor the last vote count per voter.
+yna-summary.pl will only honor the most recent vote cast by each voter.
 
 
 ----
 
-Also see monitoring-check.pl to ensure the incoming votes are
+Also see monitoring-check.pl to ensure the incoming votes are from
 legitimate voters.
