@@ -1,17 +1,13 @@
 Title: Source Code
 
 ## pySTeVe
-PySTeVe can be browsed via the [web interface](https://svn.apache.org/viewvc/steve/trunk/pysteve/).
+PySTeVe can be browsed via the [web interface](https://github.com/apache/steve).
 
-You can check out the source code at: [https://svn.apache.org/repos/asf/steve/trunk/pysteve/](https://svn.apache.org/repos/asf/steve/trunk/pysteve/):
+You can check out the source code at: [https://github.com/apache/steve/tree/trunk/pysteve](https://github.com/apache/steve/tree/trunk/pysteve):
 
-
-      $svn co https://svn.apache.org/repos/asf/steve/trunk/pysteve/
-
+`git clone https://github.com/apache/steve.git`
 
 PySTeVe requires no building/compiling, but does require a setup, as explained on the [try it out](/demo.html) page.
-
-
 
 
 ## Older sources
